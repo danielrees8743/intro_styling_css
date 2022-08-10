@@ -8,10 +8,16 @@ body {
 /* Style the header: center text */
 header {
   background-color: #f1f1f1;
+  text-align: center;
+  margin: 0 auto;
 }
 
 /* Create three equal columns that floats next to each other */
 section {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /*Should be removed. Only for demonstration*/
 }
 
 main {
@@ -20,4 +26,7 @@ main {
 /* Style the footer */
 footer {
   background-color: #f1f1f1;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
